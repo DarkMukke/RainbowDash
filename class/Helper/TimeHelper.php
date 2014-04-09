@@ -40,7 +40,7 @@ class TimeHelper {
         $lastDayInt = self::timeFromDayMonthYear($lastDay, $month, $year);
         $lastDayNumber = date('w', $lastDayInt);
 
-        while($lastDayNumber === 0 || $lastDayNumber === 6)
+        while($lastDayNumber == 0 || $lastDayNumber == 6)
         {
             $lastDay--;
             $lastDayInt = self::timeFromDayMonthYear($lastDay, $month, $year);
