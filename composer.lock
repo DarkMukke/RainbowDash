@@ -1,0 +1,109 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "9413ca50816cd59ada3901570ab7d99a",
+    "packages": [
+        {
+            "name": "corneltek/cliframework",
+            "version": "1.6.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/c9s/php-CLIFramework.git",
+                "reference": "6ff2b0ef550f4e96ae359a2a0a7e995f590f4b42"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/c9s/php-CLIFramework/zipball/6ff2b0ef550f4e96ae359a2a0a7e995f590f4b42",
+                "reference": "6ff2b0ef550f4e96ae359a2a0a7e995f590f4b42",
+                "shasum": ""
+            },
+            "require": {
+                "corneltek/getoptionkit": "1.*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "corneltek/phpunit-testmore": "dev-master",
+                "corneltek/universal": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "CLIFramework": "src"
+                }
+            },
+            "notification-url": "http://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yo-An Lin",
+                    "email": "cornelius.howl@gmail.com",
+                    "homepage": "http://c9s.me"
+                }
+            ],
+            "description": "Command-line framework for PHP",
+            "homepage": "http://github.com/c9s/CLIFramework",
+            "time": "2014-03-10 13:44:22"
+        },
+        {
+            "name": "corneltek/getoptionkit",
+            "version": "1.2.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/c9s/php-GetOptionKit.git",
+                "reference": "781458cfa5e43efc91223f262f50c3aad15621bc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/c9s/php-GetOptionKit/zipball/781458cfa5e43efc91223f262f50c3aad15621bc",
+                "reference": "781458cfa5e43efc91223f262f50c3aad15621bc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "corneltek/phpunit-testmore": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "GetOptionKit": "src"
+                }
+            },
+            "notification-url": "http://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yo-An Lin",
+                    "email": "cornelius.howl@gmail.com",
+                    "homepage": "http://c9s.me"
+                }
+            ],
+            "description": "Powerful command-line option toolkit",
+            "homepage": "http://github.com/c9s/GetOptionKit",
+            "time": "2014-03-02 08:56:11"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": [
+
+    ],
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}

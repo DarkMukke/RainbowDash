@@ -1,0 +1,11 @@
+{
+    "require": {
+        "corneltek/cliframework": "~1.5"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "RainbowDash\\": "class/"
+        }
+    }
+}
