@@ -65,12 +65,7 @@ class Payday
     public function getPaydays()
     {
         $this->payDay = TimeHelper::getLastWeekday($this->month, $this->year);
-        $nextMonth = $this->month + 1;
-        $nextYear = $this->year;
-        if ($nextMonth > 12) {
-            $nextYear++;
-        }
-        $this->bonusDay = TimeHelper::getBonusDay($nextMonth, $nextYear);
+        $this->bonusDay = TimeHelper::getBonusDay($this->month + 1, $this->year);
 
         $paydays = array();
         $paydays['payDay'] = date($this->format, $this->payDay);
